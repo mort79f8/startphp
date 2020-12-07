@@ -1,0 +1,52 @@
+1. Hvilke arithmetic operatorer er der?
+    + - * /
+
+2. Hvad betyder assignment operatoren *=
+    det er en måde at skriv tingene på som er lige korter
+    eksample: 
+    $nummer = $nummer + 2 kan skrives
+    $nummer += 2
+
+3. Hvad er forskellen på ($a == $b) og ($a === $b)?
+    hvis man bruger == så er man ligeglad med datatype.
+    hvis man bruger === så skal datatype også være den samme.
+
+4. Hvad betyder denne operator: =>
+
+
+5. Hvad betyder denne operator og hvad kaldes den? <=> ?
+    spaceship.
+    eksample:
+    $num1 = 1;
+    $num2 = 2;
+    $num1 <=> $num2
+    hvis num1 er større end num2 så vil den retunere 1
+    hvis de er lige store så retuneres der 0
+    hvis num2 er større så retunere -1
+    
+    så den kan bruges til at check 3 ting på engang.
+
+6. Hvilke to måder kan man spørge om $ = 1 ELLER $b = 2?
+    $ === 1 OR $b === 2
+    $ === 1 || $b === 2
+
+7. Hvilken værdi vil nederste linje kode have?
+    true
+    da $num1 === 6 er false, men vi checker efter !$num1 === 6 som er det modsatte
+
+8. Er der nogen forskel på hvad output følgende linjer kode vil give? Forklar det lige 😊
+    $a = 5;
+    $b = 5;
+    echo ++$a . "<br>"; // her skrives bliver er echo 6
+    echo $b++; // her bliver der echo 5 og hvis man så checker b efter dette så er den 6.
+
+9. Kender du en anden måde at notere en if/else statement? En shorthand der er gældende i f.eks. java-
+   script? Hvad hedder den? Og kan du omskrive følgende statement til sådan en shorthand?
+    det hedder en ternary.
+    // jeg er ikke helt sikker på ternary's i javascript eller andre sprog men vi prøver.
+    $age = 18;
+    $age >= 18? echo "You can buy alcohol" : echo "You can't buy alcohol";
+
+10. Hvad er en switch statement? Hvornår giver det mening at bruge i stedet for en stak elseif?
+    et switch er nemmer at overskue når der er tale om mange muligeheder en tumlefinger regle er hvis 
+    der er mere end 3 elseif så brug en switch.

@@ -1,0 +1,22 @@
+1. Hvad er forskellen på include og require?
+    include tillader at side stadig bliver loaded hvis filen mangler.
+    require vil smide en fejl og stoppe side hvis den ikke kan finde filen.
+
+2. Hvad er forskellen på include_once og include?
+    include_once ser efter om man har hente den file tidliger på siden, og loader kun
+    hvis den ikke kan finde nået.
+
+3. Er der ulemper ved at bruge include_once?
+    ikke hvad jeg lige kunne forstå.
+
+4. Undersøg indbyggede php metoder: findes der en
+   metode til at dele en string op i et array. 
+   Altås f.eks. ”Jeg er aflang” bliver til arrayet [”Jeg”, ”er”, ”aflang”]
+    der er en metode som hedder "explode()" som ser ud til at tage 2 argumenter.
+
+5. Undersøg indbyggede php metoder: findes der en
+   metode at ”escape” specielle chars som < og ’? Fin-
+   des der også det modsatte? En der laver &gt; om til >?
+    jeg tror metoden 'htmlspecialchars() kan bruges til at 'escape' dem med.
+    Der ser ud til at være en metode som hedder 'htmlspecialchars_decode($str)'
+    tror som skulle lave &gt om til >.

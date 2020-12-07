@@ -1,0 +1,18 @@
+1. Hvad er en incrementor? Hvad er dens funktion?
+    en incrementor er en tæller, den tæller op/ned med et givet intervalg.
+
+2. Hvad er forskellen på et while loop og et do-while loop?
+    do-while køre altid en gang, et while loop kan man komme helt uden om.
+
+3. Hvad bruges et foreach-loop til?
+    man bruger til at gå igennem alle værdier i et array.
+
+4. Hvad betyder keywordet ”break”?
+    break bruges til at bryde ud af hvad end man har gang i, f.eks et loop, en switch, ect.
+    man kan bruge "break #" til at bryde ud af flere nestet loop hvor # er hvor mange loops man vil
+    bryde ud af.
+
+5. Hvad betyder keywordet ”continue”?
+    forsæt....
+    man bruger det til at skippe en interration i et loop.
+    

@@ -1,0 +1,45 @@
+1. Hvad er scalar datatype?
+    det er de forskellige datatyper vi kender fra andre programmerings sprog.
+    nemlig string, integer, boolean og float
+
+2. hvad er forskellen på at anvende ' og " i en string?
+    de forskellige tegn afslutter ikke hianden hvilken betyder at man kan
+    bruge dem til at pakke nået ind som har et behov for at havde flere
+    "tegn"
+    et eksample: "SELECT * FROM people WHERE name='Morten'"
+
+3. hvad betyder det at escape encharacter i en string?
+
+
+4. skriv her pi (3.14) som du vil skrive den i php?
+    3.14??
+
+5. hvad kan en boolean bruges til tænker du?
+    boolean er bare ja/nej eller sand/falsk (det er true/false)
+    så man kan bruge det til f.eks. et loop der løber ind til at man
+    sætter en boolean variable til falsk.
+    eksample:
+    // man sætter en tæller og en boolean variable
+    i = 0
+    jegErEnBooleanVariable = true
+    
+    // så looper vi indtil at boolean ikke er sand
+    while (jegErEnBooleanVariable)
+    {
+        // her sætter vi boolean til at være sand hvis i er lige med 5
+        if (i == 5)
+        {
+            jegErEnBooleanVariable = false
+        }
+        // her siger vi er i er lige med i + 1 
+        i++
+    }
+
+6. hvad er pascalcasing? hvad er camelcasing?
+    det er forskellige måder at skrive functioner,variable,ect på i programmerings sprog.
+    pascalcasing: IAmPascalcasing
+    camelcasing: iAmCamelcasing
+    forskellen ligger i om man bruger stort bogstav først eller ej.
+
+7. hvordan erklærer man en constant i php?
+    define("GREETING", "hello world");
