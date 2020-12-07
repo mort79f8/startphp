@@ -1,0 +1,2 @@
+# startphp
+skole php indlærning
