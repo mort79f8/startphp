@@ -1,0 +1,50 @@
+1. Hvad er et numerisk array?
+    Det er et array hvor mangler bruger placeringen i arrayen til at finde Hvad
+    man skal bruge 
+    f.eks:
+    $people = ["jens", "ole", "klaus"]
+    // for at få fat i ole
+    echo $people[1] // et array starter på pladsen 0, så der er 0,1,2,ect
+
+2. Hvad er et associative array?
+    Det er et array hvor man har en "key" og en "value" som blive sat sammen, 
+    og så bruger man en "key" til at finde en "value"
+    f.eks:
+    // her sætter vi key og value sammen key er et navn her og value er deres alder
+    $ages = ['jens'=>20, 'ole'=>55, 'klaus'=>43]
+    // for at få fat i ole's alder
+    echo $ages['ole']
+
+3. Hvis du skulle lave en variabel der skulle
+   holde de første 20 primtal, hvilken type
+   array ville du vælge? Hvorfor?
+    Jeg ville vælge en numerisk array, fordi der ikke er nogle mening i at sætte et primtal
+    sammen med en eller anden form for key.
+
+4. Hvis du skulle lave et array der skulle
+   holde information om brugere i et login-
+   system, hvilken type array ville du vælge?
+   Hvorfor?
+    Her vil det give mening at bruge en associative array, da man kan kombinere navnet på den information med den værdi
+    som man har.
+    f.eks:
+    man har id, navn, alder og email,
+    så laver man en associative array hvor man bruger key id, navn, alder, email og smider value som høre til ind
+
+5. Hvordan tilføjer man et element til et en-
+   den numerisk array? Findes der flere må-
+   der?
+   man kan bruge:
+   $people[] = "Tom"
+   eller
+   array_push($people, "Tom") 
+
+6. Hvad er et et multidimensionelt array?
+    Også kaldet en matrix.
+    Det er hvor man har arrays i arrays.
+    f.eks.
+    $classes = [
+        ['v31','mark','christian'],
+        ['T3', 'Hannibal', 'Lukas'],
+        ['Lab', 'Asbjørn', 'Anton']
+    ]
